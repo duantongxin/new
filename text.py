@@ -14,7 +14,7 @@ while True:
                 if one_input == "退出编辑":
                     break
                 fell.writelines(one_input)
-                fell.write("\r\n")
+                fell.write("\r")
                 fell.flush()
         elif new_nput == "读取":
             for f_read in fell.readlines():
