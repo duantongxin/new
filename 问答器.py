@@ -1,4 +1,5 @@
 #-*- coding: UTF-8 -*-
+#这是一个python程序
 import os.path #引入os.path库
 from time import * #引入time库
 import linecache #引入lincache库
