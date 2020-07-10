@@ -17,7 +17,7 @@ while True:
                 file_.write("\r")
                 file_.flush()
         elif new_input == "读取":
-            for f_read in fell.readlines():
+            for f_read in file.readlines():
                 print(f_read)
         else:
             pass
